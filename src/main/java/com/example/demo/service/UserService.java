@@ -4,11 +4,9 @@ import com.example.demo.dto.CreateUserDto;
 import com.example.demo.dto.LoginUserDto;
 import com.example.demo.entity.User;
 import com.example.demo.exception.ConflictException;
-import com.example.demo.exception.NotFoundException;
 import com.example.demo.exception.UnAuthorizedException;
 import com.example.demo.repository.UserRepository;
 import lombok.AllArgsConstructor;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script th:inline="javascript">
+        (() => {
+            const name = [[${name}]];
+            console.log(name);
+        })();
+    </script>
+</head>
+<body>
+    <h2>Hello, <span th:text="${name}"></span></h2>
+</body>
+</html>
